@@ -2,7 +2,7 @@ import socket
 import sys
 
 HOST, PORT = "localhost", 22345
-data = "aabbccdd"
+data = input("Stream: ")
 
 # SOCK_DGRAM is the socket type to use for UDP sockets
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

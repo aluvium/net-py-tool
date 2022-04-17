@@ -4,7 +4,7 @@ import threading
 SERVER = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 BIND_IP = "0.0.0.0"
-BIND_PORT = 2406
+BIND_PORT = 24240
 SERVER.bind((BIND_IP, BIND_PORT))
 SERVER.listen(3)
 print("[#] Listening on: %s:%d" % (BIND_IP, BIND_PORT))
