@@ -12,3 +12,4 @@ Short  brief info
 ## Where gets help about project
 
 ## Contributors ##
+Based on python decumentation.
